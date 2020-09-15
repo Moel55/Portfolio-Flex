@@ -1,7 +1,8 @@
 /* assign header bg color blue */
 header {
     background-color: #5858eb;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    
 }
 
 /* font & styling for main heading */
@@ -11,11 +12,77 @@ header h1 {
     color: #fff;
     margin: 0;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
 }
+
 /* body bg color */
-body {
+main {
     background-color: #F0E1B9FF;
+    text-align: center;
+}
+
+/* h2 styling */
+h2 {
+    color: #a9a9a9;
+    font-weight: 600;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+/* section bg color */
+.portfolio {
+    
+    background-color: #5858eb;
+    color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.opeq {
+    background-color: #ABD6DFFF;
+    color: #5858eb;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* portfolio image styling */
+.portfolio-img img{
+    border-radius: 50%;
+    border-color: #fff;
+    border-style: solid;
+    margin-top: 40px;
+}
+
+/* footer styling */
+.footer {
+    margin-top: 100px;
+}
+
+/* form styling */
+.form-container {
+    background-color: #5858eb;
+    padding-top: 10px;
+}
+
+.form-container p {
+    color: #a9a9a9;
+}
+
+.form {
+    background-color: #ABD6DFFF;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+textarea, input {
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+button {
+    margin-bottom: 5px;
+    border-radius: 5px;
 }
 /* show flex in navigation */
 .group-header {
@@ -40,17 +107,13 @@ body {
     height: auto;
     margin: auto;
 }
-/* .code-logo img {
-    display: flex;
-    object-fit: contain;
-
-} */
 /* flex & styling ul */
 .navi ul {
     display: flex;
     padding-left: 0;
     justify-content: center;
     list-style: none;
+    border-bottom: 100px;
 }
 
 /* styling list items & setting margins */
@@ -71,12 +134,31 @@ body {
 .greetings {
     display: flex;
     flex-direction: column;
+    
 }
 
 .portfolio {
     flex: 1;
+    margin: 20px;
 }
 
+/* footer flex */
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* form flex */ 
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    flex: 3;
+}
 /* apply rules browser greater than 800 pixels */
 @media all and (min-width: 800px) {
     body {
@@ -109,21 +191,16 @@ body {
         justify-content: flex-end;
         margin-top: 0;
     }
-    /* header nav ul li a:link {
-        color: #ff0000;
-      } */
-    .navi ul li a:visited {
-        color: #008000;
-      }
     .navi ul li a:hover {
-        color: #ffc0cb;
+        color: #F0E1B9FF;
       }
     .navi ul li a:active {
-        color: #0000ff;
+        color: #a9a9a9;;
       }
 
     .greetings {
         display: flex;
         flex-direction: row;
     }
+    
 }

@@ -18,54 +18,65 @@
                     <nav>
                         <ul>
                             <li><a href="#intro">Intro</a></li>
+                            <li><a href="#projects">Projects</a></li>
                             <li><a href="#about">About</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
-    </header>
+        </header>
 
-    <section>
-        <!-- Intoductory & mission statement section to the developer  -->
-        <div class="greetings" id="intro">
-            <!-- portfolio image -->
-            <div class="portfolio portfolio-img">
-                <img src="images/portfolio.jpeg" alt="photo of developer" width="200px" height="200px" class="portfolio">
-                <h3>Full Stack Developer</h3>
+    <main>
+            <div class="portfolio-img">
+                <img src="images/portfolio.jpeg" alt="photo of developer" width="300px" height="300px" class="portfolio-img">
+                <h2>Full Stack Developer</h2>
             </div>
-            <div class="portfolio">
-                <h2>Intro</h2>
+    
+
+    <section class="greetings">
+        <!-- Intoductory & mission statement section to the developer  -->
+        
+            <!-- portfolio image -->
+            
+        
+        <div class="portfolio" id="intro">
+            <h2>Intro</h2>
+            <div class="opeq">
+                
                 <p>"Hello World" I Am Mark Gee</p>
                     <p>
                         I live in San Rafael, near San Francisco California and I am a Software Engineer.
                         Being a new resident in the Bay Area, I am drown to and inspire by the tech industry.
-                        <br>
                         As a Software Engineer my mission is to: 
                     </p>
-            </div>
-            <div class="portfolio skills">
-                <ul>
-                    <li>Collaborate with other developers.</li>
-                    <li>Develop websites and apps that benefit all.</li>
-                    <li>Optimize code for maintainability, scalability, and security.</li>
-                    <li>Implement user experience improvements.</li>
-                </ul>
-            </div>
-            <div class="portfolio symbols">
-                <h3>Technologies Used:</h3>
-                <a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noopener"><img src="images/html-red.png" alt="html-logo" class="html"></a>
-                <a href="https://www.w3schools.com/js/default.asp" target="_blank" rel="noopener"><img src="images/icons8-javascript-50.png" alt="javascript-logo" class="js"></a>
-                <a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noopener"><img src="images/icons8-css3-50.png" alt="css-logo" class="css"></a>
+            
+                    <p>Collaborate with other developers.</p>
+                    <p>Develop websites and apps that benefit all.</p>
+                    <p>Optimize code for maintainability, scalability, and security.</p>
+                    <p>Implement user experience improvements.</p>
+            </div>    
+        </div>   
+            <div class="portfolio " id="projects">
+                <h2>Technologies</h3>
+                    <div class="opeq symbols">
+                        <a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noopener"><img src="images/html-red.png" alt="html-logo" class="html"></a>
+                        <a href="https://www.w3schools.com/js/default.asp" target="_blank" rel="noopener"><img src="images/icons8-javascript-50.png" alt="javascript-logo" class="js"></a>
+                        <a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noopener"><img src="images/icons8-css3-50.png" alt="css-logo" class="css"></a>
+                    </div>
+
+                    <p>On September 2020, I begin a Software Immersive Program with Thinkful.</p>
+                    <p>As I learn more technologies and developing more applications, 
+                       The projects will reflect and will be updated. </p>
+                    
             </div> 
         </div>
-</section>
 
-<section>
-    <div class="greetings" id="about">
-        <!-- Details about the developer work history, interest and hobbies -->
-    <div class="portfolio">
-            <h2>About</h2>
+        <div class="portfolio" id="about">
+                <!-- Details about the developer work history, interest and hobbies -->
+        <h2>About</h2>
+        <div class="opeq">
+            
                 <p>
                 As a telecom professional, I have enjoyed connecting people with entertainment, 
                 telephone and data tools for business and personal needs.  After completing Computer 
@@ -83,5 +94,41 @@
         </div> 
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="contact">
+            <h2>Contact Mark Gee</h2>
+                <div id="contact" class="social">
+                    <a href="https://github.com/Moel55" target="_blank" rel="noopener"><img src="images/github.png" alt="github" class="fa fa-github"></a>
+                    <a href="mailto:moel55.mg@gmail.com" target="_blank" rel="noopener"><img src="images/google.png" alt="gmail" class="fa fa-google"></a>
+                    <a href="https://www.linkedin.com/in/marcusgillespie/" target="_blank" rel="noopener"><img src="images/linkedIn-blue.png" alt="linked in" class="fa fa-linkedin"></a>
+                </div>
+        </div>
+        <div class="form-container">
+            <form action="https://formspree.io/moel55.mg@gmail.com" method="post">
+                <fieldset class="form">
+                    <label for="user-name">Name:
+                        <input type="text" name="name" id="user-name">
+                    </label>
+                    <div class="emails">
+                        <label for="email">Email:
+                            <input type="text" name="replyto">
+                        </label>
+                    </div>
+                    <div class="message">
+                        <label for="messages">Message:
+                            <textarea name="message"></textarea>
+                        </label>
+                    </div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+            <p>&copy copyright 2020</p>
+        </div>
+    </footer>
+    
+</main>
 </body>
 </html>
+
