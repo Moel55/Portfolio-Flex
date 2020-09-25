@@ -23,7 +23,7 @@ main {
 
 /* h2 styling */
 h2 {
-    color: #a9a9a9;
+    /* color: #a9a9a9; */
     font-weight: 600;
     font-family: fantasy;
     font-size: 30px;
@@ -36,6 +36,13 @@ h2 {
     color: #fff;
     border-radius: 15px;
     padding: 20px;
+}
+
+.name {
+    font-weight: 400;
+    color: gray;
+    padding-top: 15px;
+    letter-spacing: 3px;
 }
 
 .opeq {
